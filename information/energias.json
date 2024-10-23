@@ -1,0 +1,48 @@
+{
+  "energias": [
+    {
+      "nombre": "Energía Solar",
+      "imagen": "images/energia_solar.jpg",
+      "descripcion": "La energía solar es una de las fuentes renovables con mayor potencial en Colombia, gracias a su ubicación geográfica favorable. Al instalar paneles solares en tu hogar, puedes generar electricidad limpia y reducir significativamente tus emisiones de CO₂.",
+      "beneficios": [
+        "Reducción de hasta 4 toneladas de CO₂ al año por hogar.",
+        "Ahorro en la factura eléctrica.",
+        "Incremento del valor de tu propiedad."
+      ],
+      "iniciativas": "Empresas como Celsia están liderando proyectos de energía solar, facilitando la adopción de esta tecnología en zonas como la región Caribe y Antioquia."
+    },
+    {
+      "nombre": "Energía Eólica",
+      "imagen": "images/energia_eolica.jpg",
+      "descripcion": "La energía eólica aprovecha la fuerza del viento para generar electricidad sin emitir gases de efecto invernadero. Colombia cuenta con un gran potencial eólico, especialmente en la región de La Guajira.",
+      "beneficios": [
+        "Reducción de emisiones de hasta 1.2 gigatoneladas de CO₂ al año a nivel global.",
+        "Fuente de energía renovable y sostenible.",
+        "Creación de empleos en el sector verde."
+      ],
+      "iniciativas": "La instalación de parques eólicos en La Guajira está contribuyendo significativamente a la matriz energética renovable del país."
+    },
+    {
+      "nombre": "Energía Hidroeléctrica",
+      "imagen": "images/energia_hidroelectrica.jpg",
+      "descripcion": "La energía hidroeléctrica aprovecha el flujo del agua para generar electricidad, siendo una de las fuentes más utilizadas en Colombia. Esta energía es renovable y tiene un bajo impacto ambiental en comparación con los combustibles fósiles.",
+      "beneficios": [
+        "Generación constante de electricidad.",
+        "Reducción de emisiones de CO₂.",
+        "Apoyo a comunidades locales a través de proyectos de desarrollo."
+      ],
+      "iniciativas": "El sector hidroeléctrico representa una parte significativa de la producción de energía renovable del país, contribuyendo a una matriz energética más limpia."
+    },
+    {
+      "nombre": "Energía Geotérmica",
+      "imagen": "images/energia_geotermica.jpg",
+      "descripcion": "La energía geotérmica utiliza el calor interno de la Tierra para generar electricidad. Aunque menos desarrollada en Colombia, tiene un gran potencial para diversificar aún más la matriz energética del país.",
+      "beneficios": [
+        "Fuente de energía constante y fiable.",
+        "Baja emisión de gases de efecto invernadero.",
+        "Potencial de desarrollo tecnológico y creación de empleos."
+      ],
+      "iniciativas": "Proyectos piloto en zonas con actividad geotérmica prometen expandir esta fuente de energía limpia en el futuro."
+    }
+  ]
+}

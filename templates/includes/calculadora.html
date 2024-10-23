@@ -1,0 +1,35 @@
+<h1>Calcula tu Huella de Carbono</h1>
+<p>Ingresa tus datos y descubre cuántas toneladas de CO₂ emites al año. ¡Empieza a reducir tu impacto ambiental hoy mismo!</p>
+
+<div>
+    <h2>1. Transporte</h2>
+    <label for="carKm">¿Cuántos kilómetros manejas al mes?</label>
+    <input type="number" id="carKm" placeholder="Ingresa los km que manejas" min="0">
+    <label for="publicKm">¿Cuántos kilómetros recorres en transporte público al mes?</label>
+    <input type="number" id="publicKm" placeholder="Ingresa los km en transporte público" min="0">
+</div>
+
+<div>
+    <h2>2. Energía en el hogar</h2>
+    <label for="electricity">¿Cuántos kWh de electricidad consumes al mes?</label>
+    <input type="number" id="electricity" placeholder="Ingresa el consumo en kWh" min="0">
+    <label for="gas">¿Cuántos metros cúbicos de gas consumes al mes?</label>
+    <input type="number" id="gas" placeholder="Ingresa el consumo de gas en m³" min="0">
+</div>
+
+<div>
+    <h2>3. Alimentación</h2>
+    <label for="meat">¿Cuántas veces consumes carne a la semana?</label>
+    <input type="number" id="meat" placeholder="Ingresa las veces que consumes carne" min="0">
+</div>
+
+<div>
+    <h2>4. Uso del agua</h2>
+    <label for="water">¿Cuántos litros de agua consumes al día?</label>
+    <input type="number" id="water" placeholder="Ingresa los litros de agua" min="0">
+</div>
+
+<button onclick="calculateCarbonFootprint()">Calcular Huella de Carbono</button>
+<div id="result"></div>
+
+<img id="pieChartImage" src="/static/pie_chart.png" alt="Pie Chart">

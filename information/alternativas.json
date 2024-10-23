@@ -1,0 +1,42 @@
+{
+  "alternativas": [
+    {
+      "nombre": "Alimentacion Sostenible",
+      "consejos": [
+          "Opta por una dieta basada en plantas: Reducir el consumo de carne, especialmente de res, puede disminuir considerablemente tu huella de carbono. La producción de carne es una de las mayores fuentes de emisiones de gases de efecto invernadero",
+          "Compra local y de temporada: Los alimentos locales y de temporada requieren menos transporte y refrigeración, lo que reduce las emisiones de CO2",
+          "Minimiza el desperdicio de alimentos: Planifica tus comidas, utiliza las sobras y almacena los alimentos correctamente para evitar que se echen a perder"
+      ]
+    },
+    {
+      "nombre": "Transporte verde",
+      "consejos": [
+          "Usa la bicicleta o camina: Para distancias cortas, optar por caminar o andar en bicicleta no solo es saludable, sino que también ayuda a reducir las emisiones del transporte",
+          "Comparte coche o usa transporte público: Disminuir la cantidad de autos en circulación contribuye a reducir la huella de carbono del transporte.",
+          "Vehículos eléctricos o híbridos: Si es posible, cambiar a un coche eléctrico o híbrido puede reducir significativamente tus emisiones."
+      ]
+    },
+    {
+      "nombre": "Consumo de Energía en el Hogar",
+      "consejos": [
+          "Apaga los aparatos electrónicos: Desconecta los electrodomésticos cuando no los estés utilizando para evitar el consumo de energía en espera.",
+          "Aprovecha la luz natural: Utilizar la luz del día en lugar de iluminación artificial puede reducir el consumo de energía.",
+          "Instala paneles solares: Aunque es una inversión inicial, a largo plazo reduce la huella de carbono y puede incluso generar ahorro en las facturas de electricidad."
+      ]
+    },
+    {
+      "nombre": "Reducción del Consumo de Agua",
+      "consejos": [
+          "Instala grifos de bajo flujo: Reducen el desperdicio de agua en actividades cotidianas como lavar las manos o los platos.",
+          "Recoge agua de lluvia: Usarla para tareas como regar plantas o lavar el coche ayuda a reducir el consumo de agua potable."
+      ]
+    },
+    {
+      "nombre": "Reducción de Residuos",
+      "consejos": [
+          "Recicla y reutiliza: Separar los residuos y reutilizar materiales ayuda a disminuir la demanda de recursos naturales.",
+          "Evita el plástico de un solo uso: Optar por productos reutilizables, como botellas y bolsas, puede reducir la producción de plásticos, que generan CO2 al fabricarse."
+      ]
+    }
+  ]
+}
