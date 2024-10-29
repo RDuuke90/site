@@ -8,23 +8,6 @@
     });
 });
 
-// Ocultar el logo al hacer scroll y ajustar la altura del header
-window.addEventListener('scroll', function() {
-    const header = document.getElementById('header');
-    const logo = document.getElementById('logo');
-    const menu = document.getElementById('menu');
-    const scrollPosition = window.scrollY;
-
-    if (scrollPosition > 50) {
-        logo.style.opacity = '0'; // Desvanecer el logo
-        header.style.height = '50px'; // Ajustar altura del header a la del menú
-        menu.style.transition = 'height 0.3s'; // Transición suave para el menú
-    } else {
-        logo.style.opacity = '1'; // Mostrar el logo
-        header.style.height = 'auto'; // Restablecer altura del header
-    }
-});
-
 document.addEventListener('DOMContentLoaded', function () {
     const tabButtons = document.querySelectorAll('.tab-button');
     const tabContents = document.querySelectorAll('.tab-content');

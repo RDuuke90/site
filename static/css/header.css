@@ -1,0 +1,47 @@
+/* header.css */
+.header {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: rgba(34, 139, 34, 0.8);
+}
+
+.logo {
+    max-width: 350px;
+    margin: 20px 0;
+    height: 70px;
+}
+
+.menu {
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.menu a:hover {
+    color: #FFD700;
+    transform: scale(1.1);
+}

@@ -1,0 +1,38 @@
+/* tabs.css */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background-color: #228B22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+}
+
+.tab-button:hover {
+    background-color: #32CD32;
+}
+
+.tab-button.active {
+    background-color: #FFD700;
+    color: black;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+}
+
+.tab-content.active {
+    display: block;
+}
